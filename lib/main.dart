@@ -1,3 +1,4 @@
+import 'package:class_statement/riverpod/s_home_4.dart';
 import 'package:flutter/material.dart';
 
 import 'inherited_widget/s_home_2.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen2(),
+      home: HomeScreen4(),
     );
   }
 }
